@@ -24,6 +24,7 @@ include './views/header.php';
                         <p class="card-text">Price: <?= $vehicle["price"] ?>$</p>
                         <a href="./views/edit.php?id=<?= $id ?>" class="btn btn-primary">Edit</a>
                         <a href="./views/delete.php?id=<?= $id ?>" class="btn btn-danger">Delete</a>
+                        <a href="./views/details.php?id=<?= $id ?>" class="btn btn-info">More Details</a>
                     </div>
                 </div>
             </div>
